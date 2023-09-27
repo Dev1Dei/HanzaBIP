@@ -1,0 +1,88 @@
+.sidebar {
+    width: 200px;
+    background-color: #ffff;
+    color: black;
+    position: fixed;
+    left: -150px;
+    top: 80px;
+    height: 100%;
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow to the right side of sidebar */
+    z-index: 1;
+    font-size: 18px;
+}
+.menu-item {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding-bottom: 20px;
+    border-radius: 22px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Adding low opacity line underneath every item */
+}
+
+.submenu-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Adding low opacity line underneath every item */
+}
+.submenu-item:first-child{
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Adding low opacity line underneath every item */
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.toggle-btn {
+    background-color: transparent;
+    color: black; /* Changed text color to black to match sidebar text color */
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+    z-index: 3;
+}
+
+.arrow {
+    width: 25px; /* or whatever width you prefer */
+    height: 25px; /* or whatever height you prefer */
+    fill: black; /* arrow color */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    fill: black;
+    fill-opacity: 0.29;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+.subarrow{
+    width: 20px; /* or whatever width you prefer */
+    height: 20px; /* or whatever height you prefer */
+    fill: black; /* arrow color */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    fill: black;
+    fill-opacity: 0.29;
+    position: absolute;
+    align-items:center;
+    padding-left: 48px;
+}
+.subarrow2{
+    width: 20px; /* or whatever width you prefer */
+    height: 20px; /* or whatever height you prefer */
+    fill: black; /* arrow color */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    fill: black;
+    fill-opacity: 0.29;
+    position: absolute;
+    align-items:center;
+    padding-left: 25px;
+}

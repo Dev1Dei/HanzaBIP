@@ -1,0 +1,53 @@
+<div class="sidebar" [ngClass]="{'open': isOpen}">
+    <!-- Toggle Button should always be visible -->
+    <div class="toggle-btn" (click)="toggleSidebar()">
+        <svg *ngIf="!isOpen" class="arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <path fill="currentColor" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379l-1.97 1.97Z" clip-rule="evenodd" />
+        </svg>
+        <svg *ngIf="isOpen" class="arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <path fill="currentColor" fill-rule="evenodd" d="M5.841 5.28a.75.75 0 0 0-1.06-1.06L1.53 7.47L1 8l.53.53l3.25 3.25a.75.75 0 0 0 1.061-1.06l-1.97-1.97H14.25a.75.75 0 0 0 0-1.5H3.871l1.97-1.97Z" clip-rule="evenodd" />
+        </svg>
+    </div>
+
+    <!-- The rest of the menu items are only visible when the sidebar is open -->
+    <div *ngIf="isOpen" class="menu-items">
+        <!-- Main Menu item -->
+        <div class="menu-item">
+            <div (click)="isOpen = !isOpen"> <span>Menu</span></div>
+        </div>
+
+        <!-- Dashboards -->
+        <div class="menu-item">
+            <div (click)="isDashboardOpen = !isDashboardOpen">
+                <span>Dashboards</span>
+                    <svg *ngIf="!isDashboardOpen" class="subarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
+                    <svg *ngIf="isDashboardOpen" class="subarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(0 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
+            </div>
+            <div *ngIf="isDashboardOpen" class="submenu">
+                <div class="submenu-item">Dashboard 1</div>
+                <div class="submenu-item">Dashboard 2</div>
+            </div>
+        </div>
+
+        <!-- Control Boards -->
+        <div class="menu-item">
+            <div (click)="isControlBoardOpen = !isControlBoardOpen">
+                <span>Control Boards</span>
+                    <svg *ngIf="!isControlBoardOpen" class="subarrow2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
+                    <svg *ngIf="isControlBoardOpen" class="subarrow2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(0 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
+            </div>
+            <div *ngIf="isControlBoardOpen" class="submenu">
+                <div class="submenu-item">Control Board 1</div>
+                <div class="submenu-item">Control Board 2</div>
+            </div>
+        </div>
+
+        <!-- Analytics & Settings Button -->
+        <div class="menu-item">
+            <div><span>Analytics</span></div>
+        </div>
+        <div class="menu-item">
+            <div><span>Settings</span></div>
+        </div>
+    </div>
+</div>
