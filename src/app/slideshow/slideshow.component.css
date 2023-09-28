@@ -1,0 +1,19 @@
+    /* Center the iframe within the content container */
+    .iframe-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Take up the full height of the content container */
+      }
+      
+      /* Style the iframe to take up the available space */
+      .iframe-container iframe {
+        border: none;
+        width: 80%;
+        height: 50%;
+        width: 1859px;
+        height: 843px;
+        margin-top: 93px;
+      }
+      

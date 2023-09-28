@@ -1,18 +1,83 @@
 [
-    {
-      "id": 1,
-      "iframe": "https://app.powerbi.com/reportEmbed?reportId=85cdd3ba-e22d-499e-be06-f6d304b4a5a5&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
-      "name": "Wet Paint"
-    },
-    {
-      "id": 2,
-      "iframe": "https://app.powerbi.com/reportEmbed?reportId=88fb5de9-785b-4f68-b886-ed15e68d6b87&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
-      "name": "Powder"
-    },
-    {
-      "id": 3,
-      "iframe": "https://app.powerbi.com/reportEmbed?reportId=fec6be30-8408-4aee-a93d-9dc82e29c4fb&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
-      "name": "Assembly"
-    }
+
+  {
+
+    "id": 1,
+
+    "iframe": "https://app.powerbi.com/reportEmbed?reportId=85cdd3ba-e22d-499e-be06-f6d304b4a5a5&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+
+    "name": "Wet Paint"
+
+  },
+
+  {
+
+    "id": 2,
+
+    "iframe": "https://app.powerbi.com/reportEmbed?reportId=88fb5de9-785b-4f68-b886-ed15e68d6b87&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+
+    "name": "Powder"
+
+  },
+
+  {
+
+    "id": 3,
+
+    "iframe": "https://app.powerbi.com/reportEmbed?reportId=fec6be30-8408-4aee-a93d-9dc82e29c4fb&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+
+    "name": "Assembly"
+
+  },
+
+  {
+
+      "id": 4,
+
+      "iframe": "https://app.powerbi.com/reportEmbed?reportId=946bc020-b76e-4ad0-985d-fead23eb7088&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+
+      "name": "Blast"
+
+  },
+
+  {
+
+      "id": 5,
+
+      "iframe": "https://app.powerbi.com/reportEmbed?reportId=1533d44d-2d96-407a-8768-05b759917b98&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+
+      "name": "KPI Laser"
+
+  },
+
+  {
+
+      "id": 6,
+
+      "iframe": "https://app.powerbi.com/reportEmbed?reportId=2676b265-9c30-49ec-933e-db5f372d0fe8&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+
+      "name": "KPI Bending"
+
+  },
+
+  {
+
+      "id": 7,
+
+      "iframe": "https://app.powerbi.com/reportEmbed?reportId=3b922309-e9fb-478f-95b9-38409bb582f6&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+
+      "name": "KPI Machining"
+
+  },
+
+  {
+
+      "id": 8,
+
+      "iframe": "https://app.powerbi.com/reportEmbed?reportId=69be4820-1804-47ff-a33a-555544785df5&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+
+      "name": "KPI Plasma"
+
+  }
+
 ]
-  
