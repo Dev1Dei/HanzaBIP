@@ -5,9 +5,7 @@
         <div class="dropdown">
           <div class="dropbtn menu-button " href="1">Dashboards</div>
           <div class="dropdown-content">
-            <a href="/dashboard1" routerLink="dashboard1">Dashboard 1</a>
-            <a href="/dashboard1" routerLink="dashboard1">Dashboard 2</a>
-            <a href="/dashboard1" routerLink="dashboard1">Dashboard 3</a>
+            <a *ngFor="let report of reports" [routerLink]="['/dashboard', report.id]">{{ report.name }}</a>
           </div>
         </div>
         <div class="menu-button">
@@ -18,9 +16,6 @@
         </div>
       </nav>
       <div class="user-info">
-        <span class="username">Username</span>
-        <span class="email">user@example.com</span>
-        <img src="assets\Images\man-face-clipart-design-illustration-free-png.webp" alt="profile-picture" class="profile-picture"/>
       </div>
     </div>
   </header>

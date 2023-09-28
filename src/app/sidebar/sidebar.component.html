@@ -24,24 +24,9 @@
                     <svg *ngIf="isDashboardOpen" class="subarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(0 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
             </div>
             <div *ngIf="isDashboardOpen" class="submenu">
-                <div class="submenu-item" routerLink="dashboard1">Dashboard 1</div>
-                <div class="submenu-item" routerLink="dashboard1">Dashboard 2</div>
+                <div *ngFor="let report of reports" class="submenu-item" [routerLink]="['/dashboard', report.id]">{{report.name}}</div>
             </div>
         </div>
-
-        <!-- Control Boards -->
-        <div class="menu-item">
-            <div (click)="isControlBoardOpen = !isControlBoardOpen">
-                <span>Control Boards</span>
-                    <svg *ngIf="!isControlBoardOpen" class="subarrow2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
-                    <svg *ngIf="isControlBoardOpen" class="subarrow2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(0 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
-            </div>
-            <div *ngIf="isControlBoardOpen" class="submenu">
-                <div class="submenu-item">Control Board 1</div>
-                <div class="submenu-item">Control Board 2</div>
-            </div>
-        </div>
-
         <!-- Analytics & Settings Button -->
         <div class="menu-item">
             <div><span>Analytics</span></div>

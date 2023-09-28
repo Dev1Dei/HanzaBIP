@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: linear-gradient(to right, #FFFFFF, #3E0F53, #3E0F53);
+    background: linear-gradient(to right, #FFFFFF,#FFFFFF,#4564AD, #3C1053, #3C1053);
     color: white;
     height: 60px;
     position: fixed;
@@ -18,12 +18,14 @@
     width: auto;
     align-items: center;
     object-fit: contain;
+    cursor: pointer;
   }
   .menu {
     display: flex;
     gap: 69px;
     align-items: center;
     font-size: large;
+    margin-left: 1100px;
   }
   
   .dropdown {
@@ -65,6 +67,11 @@
   }
   .menu-button {
     color: white;
+    cursor: pointer;
+  }
+  .menu-button:hover {
+    color: lightgray;
+    cursor: pointer;
   }
   .user-info {
     display: flex;

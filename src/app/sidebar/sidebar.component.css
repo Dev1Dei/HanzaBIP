@@ -21,6 +21,10 @@
     border-radius: 22px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Adding low opacity line underneath every item */
 }
+.menu-item:hover span{
+  color:#3C1053;
+  font-weight: 700;
+}
 
 .submenu-item {
     padding-top: 20px;
@@ -32,6 +36,9 @@
 .submenu-item:first-child{
     padding-top: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.1); /* Adding low opacity line underneath every item */
+}
+.submenu-item:hover{
+    color: #3C1053;/* Adding low opacity line underneath every item */
 }
 
 .sidebar.open {
@@ -52,10 +59,10 @@
 .arrow {
     width: 25px; /* or whatever width you prefer */
     height: 25px; /* or whatever height you prefer */
-    fill: black; /* arrow color */
+    fill: #3C1053; /* arrow color */
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    fill: black;
+    fill: #3C1053;
     fill-opacity: 0.29;
 }
 .flex-container {
@@ -65,10 +72,10 @@
 .subarrow{
     width: 20px; /* or whatever width you prefer */
     height: 20px; /* or whatever height you prefer */
-    fill: black; /* arrow color */
+    fill: #3C1053; /* arrow color */
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    fill: black;
+    fill: #3C1053;
     fill-opacity: 0.29;
     position: absolute;
     align-items:center;
@@ -77,7 +84,7 @@
 .subarrow2{
     width: 20px; /* or whatever width you prefer */
     height: 20px; /* or whatever height you prefer */
-    fill: black; /* arrow color */
+    fill: #3C1053; /* arrow color */
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     fill: black;

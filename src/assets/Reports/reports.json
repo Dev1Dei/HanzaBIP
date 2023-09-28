@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "iframe": "https://app.powerbi.com/reportEmbed?reportId=85cdd3ba-e22d-499e-be06-f6d304b4a5a5&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+      "name": "Wet Paint"
+    },
+    {
+      "id": 2,
+      "iframe": "https://app.powerbi.com/reportEmbed?reportId=88fb5de9-785b-4f68-b886-ed15e68d6b87&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+      "name": "Powder"
+    },
+    {
+      "id": 3,
+      "iframe": "https://app.powerbi.com/reportEmbed?reportId=fec6be30-8408-4aee-a93d-9dc82e29c4fb&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
+      "name": "Assembly"
+    }
+]
+  
