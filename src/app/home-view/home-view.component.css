@@ -1,0 +1,27 @@
+body{
+    border: none;
+    width: 1859px;
+    height: 843px;
+    margin-top: 93px;
+}
+.Main{
+    background-color: red;
+}
+.profile-picture {
+  position: fixed;
+  width: 267px;
+  height: 267px;
+  border-radius: 50%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .profile-picture img {
+    display: block;
+    margin: 0 auto;
+  }
+  .Welcome{
+    top: 50%;
+    left: 35%;
+    position: fixed;
+  }
