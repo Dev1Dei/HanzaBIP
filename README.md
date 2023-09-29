@@ -36,15 +36,17 @@ Our main web application is made using Angular and the charts are made using Pow
 
 # What is Angular?
 <p align="center">
-    <img width="200" src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/62d8f5ac-7da3-42ff-a29c-992067c0fcb7" alt="Material Bread logo">
+    <img width="200" src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/480774fb-e78e-4c8e-bb68-192d0f015f69" alt="Material Bread logo">
 </p>
+
+
 
 <p align="center">Angular is a platform and framework for building single-page client-side applications using HTML, CSS, and JavaScript/TypeScript.
 It is developed and maintained by Google and is designed to make both the development and testing of such applications easier. Angular is known for its robust set of features like two-way data binding, dependency injection, and a modular architecture, allowing developers to create sophisticated, maintainable, and scalable web applications. Angular applications typically involve components, services, and modules that work together to provide smooth user experiences.</p>
 
 # What is PowerBI?
 <p align="center">
-    <img width="200" src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/6aae39eb-18e2-442e-b82c-f4c847e6c841" alt="Material Bread logo">
+    <img width="200" src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/cc85c239-c339-4084-8c6b-3a7019e63004" alt="Material Bread logo">
 </p>
 
 <p align="center">Power BI is a collection of software services, apps, and connectors that work together to turn unrelated sources of data into coherent, visually immersive, and interactive insights. Developed by Microsoft, Power BI provides cloud-based business analytics services that enable users to visualize and share insights from their data.</p>
@@ -78,7 +80,7 @@ The next main component you can see is the sidebar, it consists of:
 # Visual Tutorials on How To Use the Website
 <h2> Main Screen Structure </h2>
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/b4e4bbe6-ae08-462e-b79a-66daf031b134" alt="Material Bread logo">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/c57a9d32-60e8-4c15-b486-a02e272a942b" alt="Material Bread logo">
 </p>
 
 <img valign='middle' alt='yellow' src='https://readme-swatches.vercel.app/DDFF02'/> - Outlines the SideBar of the website
@@ -92,7 +94,7 @@ The next main component you can see is the sidebar, it consists of:
 
 <h2> Website interactables </h2>
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/ea612d1c-b078-4e5c-8283-b933d6a037d8" alt="Material Bread logo">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/50f4f36b-cfaf-4274-8a63-7c38377892e4" alt="Material Bread logo">
 </p>
 
 <img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the menu buttons that you can interact with to subtract or retract some of the UI elements.
@@ -116,7 +118,7 @@ The next main component you can see is the sidebar, it consists of:
 <a> Congratulations! You have successfully started the slideshow! </a>
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/a21fdf1d-4cee-4598-9b74-ccf40c42af30" alt="Material Bread logo">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/ae1829ce-6f19-4579-8d00-7afcf9ab1259" alt="Material Bread logo">
 </p>
 
 <img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the button you have to click to open the slideshow menu.
@@ -136,13 +138,13 @@ The next main component you can see is the sidebar, it consists of:
 <a> Congratulations! You have successfully stopped the slideshow! </a>
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/a1d6aaa2-1a33-46e1-aaaa-58cd975756b6" alt="Material Bread logo">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/776a4485-fe90-482d-b782-18d2d234cade" alt="Material Bread logo">
 </p>
 
 <img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the button you have to click to open the slideshow.
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/3fa8ad38-023c-43cb-84b4-af57d103cf3f" alt="Material Bread logo">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/cdd4af7a-71cf-4528-a0dc-a10a66da9c4a" alt="Material Bread logo">
 </p>
 
 <img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the dashboards you have to select to stop the slideshow.
