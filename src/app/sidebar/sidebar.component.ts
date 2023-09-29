@@ -62,6 +62,7 @@ export class SidebarComponent implements OnInit {
 
   startSlideshow() {
     if (this.selectedReports.length > 0) {
+      this.isOpen = false;
       this.router.navigate(['/slideshow'], {
         queryParams: {
           duration: this.slideshowDuration,
@@ -71,8 +72,10 @@ export class SidebarComponent implements OnInit {
     }
   }
 
+
   // Function to stop the slideshow
   stopSlideshow() {
+    this.isOpen = true;
     clearInterval(this.slideshowInterval);
   }
 

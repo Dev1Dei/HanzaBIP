@@ -1,4 +1,3 @@
-<div class="iframe-container">
-    <iframe width="1140" height="541.25" [src]="reportIframeSrc | safeUrl" frameborder="0" allowFullScreen="true"></iframe>
-</div>
-
+<div class="iframe-container" *ngIf="activeReport">
+    <iframe [src]="activeReport.iframe | safeUrl" width="1140" height="541.25" frameborder="0" allowfullscreen="true"></iframe>
+  </div>

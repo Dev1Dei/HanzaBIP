@@ -19,7 +19,6 @@
     "name": "Powder"
 
   },
-
   {
 
     "id": 3,
@@ -46,7 +45,7 @@
 
       "iframe": "https://app.powerbi.com/reportEmbed?reportId=1533d44d-2d96-407a-8768-05b759917b98&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
 
-      "name": "KPI Laser"
+      "name": "Laser"
 
   },
 
@@ -56,7 +55,7 @@
 
       "iframe": "https://app.powerbi.com/reportEmbed?reportId=2676b265-9c30-49ec-933e-db5f372d0fe8&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
 
-      "name": "KPI Bending"
+      "name": "Bending"
 
   },
 
@@ -66,7 +65,7 @@
 
       "iframe": "https://app.powerbi.com/reportEmbed?reportId=3b922309-e9fb-478f-95b9-38409bb582f6&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
 
-      "name": "KPI Machining"
+      "name": "Machining"
 
   },
 
@@ -76,7 +75,7 @@
 
       "iframe": "https://app.powerbi.com/reportEmbed?reportId=69be4820-1804-47ff-a33a-555544785df5&autoAuth=true&ctid=3efd4d88-9b88-4fc9-b6c0-c7ca50f1db57",
 
-      "name": "KPI Plasma"
+      "name": "Plasma"
 
   }
 

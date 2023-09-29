@@ -1,10 +1,11 @@
 <div class="sidebar" [ngClass]="{'open': isOpen}">
     <!-- Toggle Button should always be visible -->
     <div class="toggle-btn" (click)="toggleSidebar()">
-        <svg *ngIf="!isOpen" class="arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-            viewBox="0 0 16 16">
-            <!-- ... (Toggle button SVG icons) ... -->
+        <svg *ngIf="!isOpen" class="arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <path fill="currentColor" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379l-1.97 1.97Z" clip-rule="evenodd" />
         </svg>
+        <svg *ngIf="isOpen" class="arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <path fill="currentColor" fill-rule="evenodd" d="M5.841 5.28a.75.75 0 0 0-1.06-1.06L1.53 7.47L1 8l.53.53l3.25 3.25a.75.75 0 0 0 1.061-1.06l-1.97-1.97H14.25a.75.75 0 0 0 0-1.5H3.871l1.97-1.97Z" clip-rule="evenodd" /></svg>
     </div>
 
     <!-- The rest of the menu items are only visible when the sidebar is open -->
@@ -18,10 +19,8 @@
         <div class="menu-item">
             <div (click)="isDashboardOpen = !isDashboardOpen">
                 <span>Dashboards</span>
-                <svg *ngIf="!isDashboardOpen" class="subarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24"><!-- ... --></svg>
-                <svg *ngIf="isDashboardOpen" class="subarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24"><!-- ... --></svg>
+                <svg *ngIf="!isDashboardOpen" class="subarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
+                <svg *ngIf="isDashboardOpen" class="subarrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(0 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
             </div>
             <div *ngIf="isDashboardOpen" class="submenu">
                 <div *ngFor="let report of reports" class="submenu-item" [routerLink]="['/dashboard', report.id]">
@@ -33,31 +32,24 @@
         <div class="menu-item">
             <div (click)="toggleSlideshow()">
                 <span>Slideshow</span>
+                <svg *ngIf="!isSlideshowOpen" class="subarrow2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
+                    <svg *ngIf="isSlideshowOpen" class="subarrow2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(0 12 12)"><path fill="currentColor" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg>
             </div>
-            <div *ngIf="isSlideshowOpen" class="submenu">
-                <label for="duration">Duration (seconds):</label>
-                <input type="number" id="duration" [(ngModel)]="slideshowDuration" />
+            <div *ngIf="isSlideshowOpen" class="submenu2">
+                <label for="duration" class="label">Duration (seconds):</label>
+                <input type="number" id="duration" class="input" [(ngModel)]="slideshowDuration" />
                 <div class="reports-list">
                     <div *ngFor="let report of reports" class="report-item">
-                        <input type="checkbox" [id]="'report-' + report.id" [value]="report.id"
+                        <input type="checkbox" class="checkbox" [id]="'report-' + report.id" [value]="report.id"
                             [ngModel]="isReportSelected(report.id)"
                             (ngModelChange)="toggleReportSelection(report.id)" />
-                        <label [for]="'report-' + report.id" (click)="toggleReportSelection(report.id)">
+                        <label [for]="'report-' + report.id" class="report-label" (click)="toggleReportSelection(report.id)">
                             {{ report.name }}
                         </label>
                     </div>
                 </div>
-                <button (click)="startSlideshow()">Start Slideshow</button>
-                <button (click)="stopSlideshow()">Stop Slideshow</button>
-            </div>
-        </div>
-
-        <!-- Analytics & Settings Button -->
-        <div class="menu-item">
-            <div><span>Analytics</span></div>
-        </div>
-        <div class="menu-item">
-            <div><span>Settings</span></div>
+                <button class="button" (click)="startSlideshow()">Start Slideshow</button>
+            </div>            
         </div>
     </div>
 </div>
