@@ -165,7 +165,7 @@ The next main component you can see is the sidebar, it consists of:
 
 <h2>Step 4: Managing the reports.json file</h2>
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/e85fc1a2-761f-4ff8-b270-c15c8838b25a" alt="reports.json file">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/00d69989-80a5-4e18-96d0-a4192714108b" alt="reports.json file">
 </p>
 
 <a> In the reports.json file, we see fields like <strong>id</strong>, <strong>iframe</strong> and <strong>name</strong>. When adding a new dashboard, all you have to do is copy one of the dashboards that are already implemented and change its id (Lets say the last dashboard in the list was id number 8, so the next one you're gonna implement is going to have id number 9). 
@@ -179,7 +179,7 @@ Now you might be wondering, where does the iframe link come from? Read about it 
 <a> Once logged in to the [PowerBI](https://app.powerbi.com/home?experience=power-bi "PowerBI") workspace, you need to locate your desired report and open it. </a>
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/0842f333-215e-4218-bc93-679a31448de8" alt="Finding your report">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/42d42cba-527d-40ce-990f-e8d65be116d8" alt="Finding your report">
 </p>
 
 <a> In this example, you can see that I have located my own report </a>
@@ -189,7 +189,7 @@ Now you might be wondering, where does the iframe link come from? Read about it 
 <a> When you finished clicking on the File -> Embed Report -> Website or portal you will see a table popup, where you have an option to download either the link to the report, or the html tag. </a>
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/f4bb2f2c-5f2e-4180-a833-7e1c90e1c13c" alt="Table popup">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/6f49f641-3bdd-4b85-ac72-48a2cfcf656c" alt="Table popup">
 </p>
 
 <img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the important iframe link you have to copy.
@@ -206,7 +206,7 @@ Now you might be wondering, where does the iframe link come from? Read about it 
 <a> Once you made sure everything is correct, hit CTRL+S or in [Notepad++](https://notepad-plus-plus.org/downloads/ "Notepad++") go to File and click Save. </a>
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/2c1953c3-71cf-40f4-89fb-24bc400032178" alt="Saving in Notepad++">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/5987066f-45a1-48fd-b17c-c5856a21ef3f" alt="Saving in Notepad++">
 </p>
 
 <h2>Step 8: Launch the project and check your new dashboard</h2>
@@ -226,7 +226,7 @@ Now you might be wondering, where does the iframe link come from? Read about it 
 <a> Once completed, launch Node.Js from your file explorer and you will see a command line open </a>
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/3615cda1-0b37-4ad0-8412-f72f623e3fc7" alt="Node.Js command line">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/5186ab9e-cb85-411d-831f-682df008e8f4" alt="Node.Js command line">
 </p>
 
 <a> Once opened, make sure to type in the console  npm install -g @angular/cli and press ENTER. You will see an installation process happen. </a>
@@ -250,7 +250,7 @@ Now you might be wondering, where does the iframe link come from? Read about it 
 <a> Launch your [Visual Studio Code](https://code.visualstudio.com/Download "Visual Studio Code") and you should see a screen looking like this:</a>
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/7b7c104a-f9a2-4471-9649-30a74f2b07a3" alt="Node.Js command line">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/e29c9701-97b8-45db-ae54-c3216a598459" alt="Node.Js command line">
 </p>
 
 <img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines where you should click once the window has opened to locate the HanzaBIP folder.
@@ -258,7 +258,7 @@ Now you might be wondering, where does the iframe link come from? Read about it 
 <a> Once you find your folder when clicking on the 'Open folder' option, you should be able to see this screen:
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/4b2a7311-2322-4e89-bed4-24bbfbc93722" alt="You have successfully opened the project in Visual Studio Code">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/8ed87416-9ded-4590-aa05-3b9761f16456" alt="You have successfully opened the project in Visual Studio Code">
 </p>
 
 <a> Congratulations, you have officially opened our project on [Visual Studio Code! (download)](https://code.visualstudio.com/Download "Visual Studio Code")  </a>
@@ -272,7 +272,7 @@ Now you might be wondering, where does the iframe link come from? Read about it 
 <a> To open the terminal, you'll need to navigate your mouse to the upper part of your screen, where you'll see a tab called 'Terminal'. Click on it and select new terminal </a>
 
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/4f7b0588-b959-4789-a0f7-146a6c2c8a10" alt="You have successfully opened the project in Visual Studio Code">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/969f2124-a45b-4b8d-b0d6-56da967ebf2a" alt="You have successfully opened the project in Visual Studio Code">
 </p>
 
 <img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the places where you need to click to open up a new terminal.
