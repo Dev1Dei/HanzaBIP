@@ -78,9 +78,8 @@ The next main component you can see is the sidebar, it consists of:
 # Visual Tutorials on How To Use the Website
 <h2> Main Screen Structure </h2>
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/e98b466b-2893-4d43-9e28-014ac7b11905" alt="Material Bread logo">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/b4e4bbe6-ae08-462e-b79a-66daf031b134" alt="Material Bread logo">
 </p>
-
 
 <img valign='middle' alt='yellow' src='https://readme-swatches.vercel.app/DDFF02'/> - Outlines the SideBar of the website
 
@@ -93,13 +92,60 @@ The next main component you can see is the sidebar, it consists of:
 
 <h2> Website interactables </h2>
 <p align="center">
-    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/3640aa34-0b38-4760-8105-6d2c1ff73900" alt="Material Bread logo">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/ea612d1c-b078-4e5c-8283-b933d6a037d8" alt="Material Bread logo">
 </p>
 
 <img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the menu buttons that you can interact with to subtract or retract some of the UI elements.
 
 <img valign='middle' alt='purple' src='https://readme-swatches.vercel.app/FF02FF'/> - Outlines the available and interactable dashboards. Once clicked, you will be redirected to the main screen with selected chart.
 
+# How to work with the slideshow?
+
+<h2>Step 1: Launching the slideshow</h2>
+
+<a>In our website we have implemented a simple solution to start your report slideshow.</a>
+
+<a>In the Sidebar, you can see a menu item called Slideshow, once selected, a dropmenu opens with a form inside it.</a>
+
+<a>In the form, you can see an input in seconds, type in how many seconds do you want to see one singular report before switching.</a>
+
+<a>Below the input, you can see all of the available reports that you can check and select to be added to the slideshow. </a>
+
+<a> Once you select your reports, press the button at the bottom of the table to start the slideshow </a>
+
+<a> Congratulations! You have successfully started the slideshow! </a>
+
+<p align="center">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/a21fdf1d-4cee-4598-9b74-ccf40c42af30" alt="Material Bread logo">
+</p>
+
+<img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the button you have to click to open the slideshow menu.
+
+<img valign='middle' alt='green' src='https://readme-swatches.vercel.app/21FF02'/> - The input of the time. Enter the desired number in seconds how often you want the slides to switch
+
+<img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/0211FF'/> - Outlines the available reports that you can select using the checkbox next to them on the left.
+
+<img valign='middle' alt='orange' src='https://readme-swatches.vercel.app/FFAF02'/> - Outlines the button where if everything is selected and done correctly, the slideshow will start.
+
+<h2>Step 2: Stopping the slideshow</h2>
+
+<a> Once you have successfully started the slideshow, stopping it is a lot easier. </a>
+
+<a> To stop the slides, open the sidebar menu with the arrow sticking out and select a dashboard you want to view. </a>
+
+<a> Congratulations! You have successfully stopped the slideshow! </a>
+
+<p align="center">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/a1d6aaa2-1a33-46e1-aaaa-58cd975756b6" alt="Material Bread logo">
+</p>
+
+<img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the button you have to click to open the slideshow.
+
+<p align="center">
+    <img src="https://github.com/Dev1Dei/HanzaBIP/assets/114073990/3fa8ad38-023c-43cb-84b4-af57d103cf3f" alt="Material Bread logo">
+</p>
+
+<img valign='middle' alt='red' src='https://readme-swatches.vercel.app/FF0202'/> - Outlines the dashboards you have to select to stop the slideshow.
 
 # How to add more dashboards?
 
